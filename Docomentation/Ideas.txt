@@ -1,0 +1,6 @@
+Npc walk around town doing jobs that can die
+objective is to build an air ship to escape 
+Get npcs to help fight
+Stats
+	Different stats give access to more things eg if you have a high intelligence stat then you can build turrets
+	or if you have a high strength you can build things faster.

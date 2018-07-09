@@ -1,0 +1,13 @@
+Inventory
+	Got a backgroud pannel
+	Added in a slot with its own graphic
+	Added an icon to this with a place holder
+
+Adds a button to inventory slot
+	None under navigation?
+Makes a parent to become the new Inventory slot and the object with the button becomes itembutton
+**Adds a remove button**
+
+Duplicates the slots 
+Adds grid layout group to divide them up
+Adds another pannel to create a title for the inventory

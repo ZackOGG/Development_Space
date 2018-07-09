@@ -1,0 +1,26 @@
+Ui Raycaster script
+	Placed on the canvas
+	This gets the infomation of what UI elements are being clicked on and is called by the Hold_Click_Controller when the mouse button is released
+	This "Finds the button to swap" in the form of an invntory slot script.
+
+Hold_Click_Controller
+	This is placyed on the Button that is clicked.
+	This script detects if the mouse is being held down over an inventory slot.
+		If it is still being heled the icon is "Picked up" by the mouse and can be moved arround freely
+	The icon then can be "Droped" over another slot to then send the data of both buttons (the one where the picked up icon came from and the one the cursor is over) the player inventory managers "FindWhichSlotsToSwithc" is called
+	If the icon is not over another button on release of the mouse button then the icon will return to the location it started at.
+
+Player_Inventory_Manager
+	Functionality
+		Adding an item to a bag - This takes in a Item and adds that item to the first empty inventory slot
+		Remove an item from bag - This takes in an inventory slot and a int. This is so we can remove the item in the inventory slot and to prevent any errors use the int to remove spesific bags slots
+		Check free bag slots - This returns an int which is the number of the bag slot that is the first one free.
+		Get inventory slots - This creates a list of the inventory slots;
+		Setcurrent bag - This sets the size of the bag 
+		Find which slots to switch - This function takes in data from the Hold click controller. Which tells it the two inventory slots that want to be switched as ints to the Change Inventory Location function
+		Change Inventory Location - This takes in two ints (Which is the index number of the items in the bag) and tells the two items coresponding with the ints to "switch locations" they are in fact destroyed and recreated.
+
+Inventory_Slot
+	UpdateUI - This updates the UI on the item depending on what is sloted in the slot
+	Adding an item to the slot - This adds an item to the slots variables
+	Remove item from slot - This removes the item from the slot and from the bag.

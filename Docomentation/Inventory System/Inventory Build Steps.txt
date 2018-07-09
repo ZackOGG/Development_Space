@@ -1,0 +1,7 @@
+Create a button that can be move around when clicked and held down
+	Once the button is released it goes back to its original posistion
+
+Equipment System
+	Move the function that equips weapons from the player controller to the player inventory - done
+	Create functionality to equip on the inventory manager - Done
+	Connect the weapon slot one and two of the player inventory to the UI buttons

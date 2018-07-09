@@ -1,0 +1,1 @@
+Create an "In combat" state and cant peform certen things while in this state eg changing equipment

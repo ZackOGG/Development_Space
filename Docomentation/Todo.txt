@@ -1,0 +1,12 @@
+Create Plan for RPG Sandbox - Done
+Create Potion shop - Done
+Create Black smith - Done
+Make sure engine is intergrated - Done
+Polish code - Done
+Create functionality to tell the differnee between Enemy, passive and freindly NPCs - Done
+Give the enemy the ability to attack when you get close as an enemy - done
+Be able to pic up weapons - Done
+Create inventory system - Done
+Create a player equipment system that can pass back and forth items from the inventory - Done
+Give more functionality for the inspector of items iand weapons for the designer
+Extend the dialouge tree to alower the npc to give items.
