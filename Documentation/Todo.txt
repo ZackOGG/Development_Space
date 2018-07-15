@@ -1,0 +1,28 @@
+Create a GUI - Done
+Add ability to investigate - with text - Done
+Inventory
+	Add functionality to look an the items in the players inventory.
+	Add functionality to use an item in the players inventory.
+	Add functionality to pick up items
+	Add function ability to the node manager for item use.
+	This function ability can eg unlock doors
+	Item needed
+	Is the item consumed in use
+Add ability to investigate - item
+NPC Dialogue
+	Can use a dialouge tree with the npc
+	Can take and use items with an out come
+Add ability to investigate - NPC Talk
+	
+Battle
+	Turn based fight between the player and a monstor
+	Use of an item takes a turn, strait after enemy takes turn
+	Enemy can drop weapons
+Add ability to investigate - Battle
+Polish
+	Support less than 3 options
+	Remove options when they dont work. - Done
+
+Create a better inspector
+	Read this: http://www.brechtos.com/hiding-or-disabling-inspector-properties-using-propertydrawers-within-unity-5/
+	Read this: https://unity3d.com/learn/tutorials/modules/intermediate/live-training-archive/property-drawers-custom-inspectors
